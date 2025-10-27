@@ -1,0 +1,9 @@
+{
+  "routerMap": [
+    {
+      "name": "SubpageTemplate",
+      "pageSourceFile": "src/main/ets/pages/SubpageTemplate.ets",
+      "buildFunction": "PageBuilder"
+    }
+  ]
+}
