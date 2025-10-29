@@ -1,26 +1,12 @@
 {
   "app": {
-    "signingConfigs": [
-      {
-        "name": "default",
-        "type": "HarmonyOS",
-        "material": {
-          "certpath": "C:\\Users\\mirac\\.ohos\\config\\default_Playground_kHWj-EDmY20lQ5Jr--DG7ZyLGX4clnxTpnf8Qvw5nEc=.cer",
-          "keyAlias": "debugKey",
-          "keyPassword": "0000001A83F0820774E23DCF0D112A4C2A38E636725D0E9252C6EEDE0A6553C64C56CB47006F6C1B56C6",
-          "profile": "C:\\Users\\mirac\\.ohos\\config\\default_Playground_kHWj-EDmY20lQ5Jr--DG7ZyLGX4clnxTpnf8Qvw5nEc=.p7b",
-          "signAlg": "SHA256withECDSA",
-          "storeFile": "C:\\Users\\mirac\\.ohos\\config\\default_Playground_kHWj-EDmY20lQ5Jr--DG7ZyLGX4clnxTpnf8Qvw5nEc=.p12",
-          "storePassword": "0000001A0F2FBCF50A3CA572F9DB07AB4A42523AA22BE751396EB07C5B2E3638D72057BB72CB1F04E0A9"
-        }
-      }
-    ],
+    "signingConfigs": [],
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
-        "targetSdkVersion": "5.0.5(17)",
-        "compatibleSdkVersion": "5.0.5(17)",
+        "targetSdkVersion": "6.0.0(20)",
+        "compatibleSdkVersion": "6.0.0(20)",
         "runtimeOS": "HarmonyOS",
         "buildOption": {
           "strictMode": {
