@@ -3,18 +3,30 @@
 struct Index {
   pageStack: NavPathStack = new NavPathStack();
   pageNames: string[] = [
-    'SubpageTemplate'
+    'SubpageTemplate',
+    'BasicComponent3D',
+    'RotatingUI'
   ]
 
   build() {
     Navigation(this.pageStack) {
       Column() {
         ForEach(this.pageNames, (item: string) => {
-          Button(item).onClick(
-            () => this.pageStack.replacePath({ name: item })
-          )
+          Button(item)
+            .margin("16px")
+            .width("87.5%")
+            .onClick(
+              () => {
+                if (this.pageStack.size() != 0) {
+                  this.pageStack.pop()
+                }
+                this.pageStack.pushPath({ name: item })
+              }
+            )
         })
-      }.width("100%").height("100%")
+      }
+      .width("100%")
+      .height("100%")
     }
     .width("100%")
     .height("100%")

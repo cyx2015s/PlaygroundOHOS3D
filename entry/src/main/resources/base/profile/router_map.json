@@ -4,6 +4,16 @@
       "name": "SubpageTemplate",
       "pageSourceFile": "src/main/ets/pages/SubpageTemplate.ets",
       "buildFunction": "PageBuilder"
+    },
+    {
+      "name": "BasicComponent3D",
+      "pageSourceFile": "src/main/ets/pages/BasicComponent3D.ets",
+      "buildFunction": "BasicComponent3DBuilder"
+    },
+    {
+      "name": "RotatingUI",
+      "pageSourceFile": "src/main/ets/pages/RotatingUI.ets",
+      "buildFunction": "RotatingUIBuilder"
     }
   ]
 }
