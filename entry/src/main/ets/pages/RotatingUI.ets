@@ -30,7 +30,7 @@ struct Subpage {
         angle: this.rotAngle,
       })
     }
-    .title('UI旋转与操作拦截')
+    .title('UI旋转')
     .width("100%")
     .height("100%")
   }
