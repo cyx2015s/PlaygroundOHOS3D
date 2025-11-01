@@ -5,7 +5,8 @@ struct Index {
   pageNames: string[] = [
     'SubpageTemplate',
     'BasicComponent3D',
-    'RotatingUI'
+    'RotatingUI',
+    'DigitsDemo'
   ]
 
   build() {

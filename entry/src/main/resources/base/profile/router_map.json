@@ -14,6 +14,12 @@
       "name": "RotatingUI",
       "pageSourceFile": "src/main/ets/pages/RotatingUI.ets",
       "buildFunction": "RotatingUIBuilder"
+    },
+
+    {
+      "name": "DigitsDemo",
+      "pageSourceFile": "src/main/ets/pages/DigitsDemo.ets",
+      "buildFunction": "DigitsDemoBuilder"
     }
   ]
 }
